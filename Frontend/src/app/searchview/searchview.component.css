@@ -1,0 +1,21 @@
+.maindiv{
+    padding: 2em ;
+    /* background-color: red; */
+    /* min-height: 100vh; */
+}
+.search-bar{
+    max-width: 600px;
+    /* how big should searchbar be?
+        may need to do some break points
+    */
+}
+body{
+    
+}
+
+.-select{background-color: #CE5E82;}
+
+.form-control{background-color: #292651;
+text-emphasis-color: white ;}
+
+.maindiv{margin-left: 10%;}

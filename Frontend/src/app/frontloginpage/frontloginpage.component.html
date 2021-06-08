@@ -1,0 +1,82 @@
+<div class="container">
+
+  <div class="card">
+    <div class="card-header">
+      <h1 class="title">{{ title }}</h1>
+    </div>
+
+    <div class="card-body">
+      <!-- <h5 class="card-title">Sub-title</h5> -->
+      <h5 class="card-text">{{ appDescription }}</h5>
+    </div>
+
+    <div class="row">
+      <div class="col"></div>
+      <!-- above div is acting as margin -->
+      <div class="col">
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">User Name</span>
+          </div>
+          <input [(ngModel)]="username" type="text" class="form-control" aria-label="Default"
+            aria-describedby="inputGroup-sizing-default" />
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
+          </div>
+          <input [(ngModel)]="password" type="password" class="form-control" aria-label="Default"
+            aria-describedby="inputGroup-sizing-default" />
+        </div>
+
+        <div>
+          <!-- <a href="/profile" > -->
+          <button type="button" class="btn btn-dark" style="background-color: #292651;" (click)="login()">
+            Sign In
+          </button>
+          <!-- </a> -->
+          <!-- <a href="/profile">Profile</a> -->
+        </div>
+
+        <div>
+          <a routerLink="newuserpage" class="card-link">New user?</a>
+        </div>
+
+      </div>
+      <div class="col"></div>
+      
+      <!-- I dont think above div does anything... I think ti was supposed to be a right margin-->
+
+    </div>
+
+    <!-- <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" /> -->
+  </div>
+
+  <div class="bottom-buffer">
+    <!-- this is an empty div - used as buffer -->
+  </div>
+
+</div>
+
+
+
+<!-- 
+<div class="container">
+  <ul class="nav justify-content-center">
+
+    <li><a routerLink="/apibandlist" routerLinkActive="active">Search Component</a></li>
+    <li><a routerLink="/newuserpage" routerLinkActive="active">Sign Up</a></li>
+  </ul>
+</div> -->
+
+
+<!-- <nav>
+  <ul>
+    <li><a routerLink="/frontloginpage" routerLinkActive="active">login Component</a></li>
+    <li><a routerLink="/user-band-list" routerLinkActive="active">band-list Component</a></li>
+    <li><a routerLink="/search" routerLinkActive="active">search Component</a></li>
+    
+  </ul>
+</nav> -->
