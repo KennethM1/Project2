@@ -5,7 +5,6 @@ Schlarb is a music app where users can save their favorite musicians and receive
 
 
 ## Technologies Used
-Spring Boot, AWS EC2, AWS S3, DevOps, Spring AOP, Spring MVC, Spring Test, Angular 10, Jasmine, Karma, Java, PostgreSQL, JPA, HTML, CSS, Bootstrap, JUnit, Mockito, Swagger, AWS RDS
 * Spring Boot
 * AWS EC2 
 * DevOps
