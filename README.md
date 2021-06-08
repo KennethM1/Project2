@@ -37,11 +37,16 @@ To-do list:
 
 ## Getting Started
    
-- When using front end documents be sure to use "npm - i" command in the IDE terminal. This loads all required node modules for Angular application
+> Install your favorite Front End IDE
+> Install your favorite Back End IDE
+> Install Angular using the "install - g @angular/cli" command.
+> 
 
 ## Usage
-
->  When using front end documents be sure to use "npm - i" command in the IDE terminal. This loads all required node modules for Angular application
+>  When using front end documents in a new local machine be sure to use "npm - i" command in your IDE terminal. This loads all required node modules for Angular application.
+>  Type the "ng serve" command inside of the terminal.
+>  Open a browser and type "http://localhost:4200/" in the url.
+>  Once app is running, navigate to the "Search" link within the NAV BAR and type into the field your favorite band/artist.
 
 ## Contributors
 
